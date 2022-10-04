@@ -1,17 +1,12 @@
-#import unittest
-#import stringcalculator
+import unittest
+import stringcalculator
 
 
-#class TestStringMethods(unittest.TestCase):
+class TestStringMethods(unittest.TestCase):
 
-#    def test_zero_args(self):
-#        self.assertEqual(stringcalculator.Add(""), 0)
+    def test_zero_args(self):
+        self.assertEqual(stringcalculator.Add(""), 0)
 
 
-#if __name__ == '__main__':
-#    unittest.main()
-
-def stringcalculator(param):
-    if param == "":
-        return 0
-    return 1
+if __name__ == '__main__':
+    unittest.main()
