@@ -9,4 +9,7 @@
 def Add(a: str) -> int:
   if a is None or a == "":
     return 0
+  if "," in a:
+    tokens = a.split(',')
+    return int(tokens[0])+ int(tokens[1])
   return int(a)
