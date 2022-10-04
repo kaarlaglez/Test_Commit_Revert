@@ -12,5 +12,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(stringcalculator.Add("0"), 0)
 
 
-if __name__ == '__main__':
-    unittest.main()
+#if __name__ == '__main__':
+#    unittest.main()
