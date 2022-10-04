@@ -8,7 +8,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(stringcalculator.Add(""), 0)
         self.assertEqual(stringcalculator.Add(None), 0)
         
-    def test_numbers_in:expression_are_converted:to:integers(self):
+    def test_numbers_in_expression_are_converted:to:integers(self):
         self.assertEqual(stringcalculator.Add("0"), 0)
 
 
