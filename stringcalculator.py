@@ -1,5 +1,8 @@
 
 
+# "" -> 0
+
+
 
 def Add(a):
   #Add implementation
