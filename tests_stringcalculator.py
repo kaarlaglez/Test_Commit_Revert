@@ -16,6 +16,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(stringcalculator.Add("2,10"), 12)
         self.assertEqual(stringcalculator.Add("1,4,1"), 6)
         self.assertEqual(stringcalculator.Add("1,2,3"), 6)
+        
+    def separated_instead_of_commas(self):
+        self.assertEqual(stringcalculator.Add("1\n2,3"), 5)
 
 
 if __name__ == '__main__':
