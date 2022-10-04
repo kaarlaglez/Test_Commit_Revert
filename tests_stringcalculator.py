@@ -14,6 +14,8 @@ class TestStringMethods(unittest.TestCase):
     def test_numbers_in_expression_are_separated_by_commas(self):
         self.assertEqual(stringcalculator.Add("1,1"), 2)
         self.assertEqual(stringcalculator.Add("2,10"), 12)
+        self.assertEqual(stringcalculator.Add("1,4,1"), 6)
+        self.assertEqual(stringcalculator.Add("1,2,3"), 6)
 
 
 if __name__ == '__main__':
