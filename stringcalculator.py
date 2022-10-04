@@ -13,5 +13,8 @@ def Add(a: str) -> int:
     return 0
   if "," in a:
     tokens = a.split(',')
-    return int(tokens[0])+ int(tokens[1])
+    total = 0
+    for token in tokens:
+      total = total + int(token)
+    return total
   return int(a)
